@@ -1,0 +1,2 @@
+ReadMe for Mahara
+Mahara is a fully featured web application to build your electronic portfolio. You can create journals, upload files, embed social media resources from the web and collaborate with other users in groups.
