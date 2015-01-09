@@ -32,11 +32,11 @@ $cfg = new stdClass();
  * valid values for dbtype are 'postgres' and 'mysql'
  */
 $cfg->dbtype   = 'postgres';
-$cfg->dbhost   = '$dbhost';
+$cfg->dbhost   = _ENGINES_dbhost';
 $cfg->dbport   = null;
-$cfg->dbname   = '$dbname';
-$cfg->dbuser   = '$dbuser';
-$cfg->dbpass   = '$dbpasswd';
+$cfg->dbname   = '_ENGINES_dbname';
+$cfg->dbuser   = '_ENGINES_dbuser';
+$cfg->dbpass   = '_ENGINES_dbpasswd';
 
 /**
  * Note: database prefix is NOT required, you don't need to set one except if
@@ -57,7 +57,7 @@ $cfg->dbprefix = '';
  * $cfg->wwwroot to use HTTPS.
  */
 // $cfg->wwwroot = 'https://myhost.com/mahara/';
-$cfg->wwwroot = 'http://$fqdn/';
+$cfg->wwwroot = 'http://_ENGINES_fqdn/';
 
 /**
  * If you are using a proxy to force HTTPS connections, you will need to
@@ -82,7 +82,7 @@ $cfg->wwwroot = 'http://$fqdn/';
  * Mahara will NOT RUN if this is inside your document root, because
  * this is a big security hole.
  */
-$cfg->dataroot = '$VOLDIR/uploaddir';
+$cfg->dataroot = '_ENGINES_VOLDIR/uploaddir';
 
 /**
  * If set, this email address will be displayed in the error message if a form
