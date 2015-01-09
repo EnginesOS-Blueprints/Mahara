@@ -32,7 +32,7 @@ $cfg = new stdClass();
  * valid values for dbtype are 'postgres' and 'mysql'
  */
 $cfg->dbtype   = 'postgres';
-$cfg->dbhost   = _ENGINES_dbhost';
+$cfg->dbhost   = '_ENGINES_dbhost';
 $cfg->dbport   = null;
 $cfg->dbname   = '_ENGINES_dbname';
 $cfg->dbuser   = '_ENGINES_dbuser';
